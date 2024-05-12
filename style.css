@@ -1,40 +1,37 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #008080;
+body {
+    font-family: Arial, sans-serif;
+    background-color: 	#008080; 
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2,h3{
+h2, h3 {
     text-align: center;
     color: #333;
 }
 
-#loginForm,
-#quiz,
-#result{
+#loginForm, #quiz, #result {
     margin-top: 20px;
     padding: 20px;
     border-radius: 8px;
-    background-color: #AFEEEE;
+    background-color: 	#AFEEEE;
 }
 
-#loginForm label,
-#quiz .question p{
+#loginForm label, #quiz .question p {
     font-size: 25px;
     color: #333;
 }
 
-input[type="text"], input[type="password"], input[type="radio"], input[type="submit"]{
+input[type="text"], input[type="password"], input[type="radio"], input[type="submit"] {
     margin-top: 10px;
     padding: 10px;
     border: 1px solid #333;
@@ -42,29 +39,33 @@ input[type="text"], input[type="password"], input[type="radio"], input[type="sub
     font-size: 16px;
 }
 
-input[type="submit"]{
-    background-color:  #4682B4;
+input[type="submit"] {
+    background-color: #4682B4;
     color: white;
     cursor: pointer;
 }
 
-.options label{
+input[type="submit"]:hover {
+    background-color: #4682B4;
+}
+
+.options label {
     display: block;
     margin-bottom: 10px;
     font-size: 16px;
     color: #555;
 }
 
-#result{
+#result {
     text-align: center;
 }
 
-#score{
+#score {
     font-size: 20px;
     color: #333;
 }
 
-#corrections{
+#corrections {
     margin-top: 20px;
     font-size: 16px;
     color: #555;
