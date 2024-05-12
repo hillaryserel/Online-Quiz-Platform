@@ -22,7 +22,7 @@ document.getElementById('quizForm').addEventListener('submit', function(event) {
     var corrections = [];
 
     var answers = {
-        'q1': '1', // Correct answer for question 1
+        'q1': '1', 
         'q2': '2', // Correct answer for question 2
         'q3': '1', // Correct answer for question 3
         'q4': '1', // Correct answer for question 4
