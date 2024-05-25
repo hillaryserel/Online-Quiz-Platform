@@ -4,7 +4,7 @@
 This project is an online quiz platform. It allows users to take a quiz on various topics and get their score at the end. The quiz is implemented in HTML, CSS, and JavaScript.
 
 ## Features
-- User login: Users can log in by entering their username and password.
+- User login:Users can log in by entering their username and password.
 - Quiz: The quiz consists of multiple-choice questions. Each question has four options, and the user has to select one.
 - Score calculation: At the end of the quiz, the user's score is calculated based on the number of correct answers.
 - Result display: The user's score and corrections for wrong or unattempted answers are displayed at the end.
